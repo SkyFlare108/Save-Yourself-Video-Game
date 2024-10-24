@@ -4,7 +4,7 @@ Welcome to **"Save Yourself!" Astronaut Edition**! This is a fast-paced game whe
 
 ## Running the Application:
 
-- The`.gba` file from this repository is the built C program compatible with any Game Boy Advance (GBA) emulator to play the game
+- The`.gba` file from this repository is the built C program, compiled using a Docker image for a consistent development environment. The image includes all necessary tools to ensure smooth compilation. It is compatible with any Game Boy Advance (GBA) emulator.
     - Popular options include **VisualBoyAdvance** or **mGBA**.
 - Simply load the `.gba` file in the emulator to start playing!
 
