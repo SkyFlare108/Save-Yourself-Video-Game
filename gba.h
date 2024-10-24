@@ -57,9 +57,6 @@ extern volatile unsigned short *videoBuffer;
 #define BUTTONS (*(volatile u32 *) 0x4000130)
 #define KEY_DOWN(key, buttons) (~(buttons) & (key))
 
-// TODO: COMPLETE THIS MACRO. DONE
-// Remember that a button is recently pressed if it wasn't pressed in the last
-// input (oldButtons) but is pressed in the current input. Use the KEY_DOWN
 // macro to check if the button was pressed in the inputs.
 #define KEY_JUST_PRESSED(key, buttons, oldButtons) (KEY_DOWN(key, buttons) && !KEY_DOWN(key, oldButtons))
 
@@ -108,7 +105,7 @@ typedef struct
 // ---------------------------------------------------------------------------
 #define SCANLINECOUNTER (*(volatile unsigned short *) 0x4000006)
 
-// Use this variable to count vBlanks. Initialized in gba.c and to be
+// Initialized in gba.c and to be
 // manipulated by waitForVBlank()
 extern u32 vBlankCounter;
 
@@ -145,7 +142,6 @@ void drawString(int row, int col, char *str, u16 color);
 void drawCenteredString(int row, int col, int width, int height, char *str, u16 color);
 
 /* Contains the pixels of each character from a 6x8 font */
-// This is in the font.c file. You can replace the font if you want.
 extern const unsigned char fontdata_6x8[12288];
 
 #endif
