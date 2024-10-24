@@ -12,6 +12,7 @@ Welcome to **"Save Yourself!!" Astronaut Edition**! This is a fast-paced game wh
 
 - **Objective:** Move the astronaut to completely cover and "eat" the hearts floating in space to collect them and gain their benefits!
 
+
 ⚠️ **The clock is ticking...**  
 
 💥 **Can you collect all the hearts and save yourself in time?** 💥
