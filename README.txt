@@ -1,15 +1,37 @@
-# "Save Yourself!!" - Astronaut Edition 🚀
+# Project Description
+An Artificial Intelligence ChatBot Python project which parses standard user input, persistently store data in a text file knowledge base and implement case and type sensitivity handling to enhance output accuracy. A user-centric knowledge base system was implemented, enabling each user to tailor their own personalized knowledge repositories for specialized query responses and chatbot training. With the integrated ChatGPT functionality, a user can choose to accept answers from ChatGPT or can cater responses to their liking.
 
-Welcome to **"Save Yourself!!" Astronaut Edition**! This is a fast-paced game where you control an astronaut on a mission to collect hearts in space — all within a 10-second time limit!
+# SkyFlareAI-Backend
+Installation:
+This program requires Python3 to be installed for complete functionality of libraries/apis
 
-## How to Play:
+Ensure pip3 is installed
+```bash
+python3 -m ensurepip
+```
+Install OpenAI and Spacy through API
+```bash
+pip3 install openai
+```
+```bash
+pip3 install spacy
+```
+```bash
+python3 -m spacy download en_core_web_sm
+```
+Once installation is complete if any errors occur with any of those two dependencies, make sure to type it into the terminal followed by:
 
-- **Movement:** Use the **arrow keys** to move the astronaut around the screen.
+```bash
+-help
+```
 
-- **Interaction:**
-  - Press **Backspace** (`SELECT`) to navigate through game menus.
-  - Press **Enter** (`START`) to make selections.
+# SkyFlareAI-Frontend
+The In-Progress React Frontend Application for the SkyFlareAI Chatbot Application
 
-- **Objective:** Move the astronaut to completely cover and "eat" the hearts floating in space to collect them and gain their benefits!
-
-Can you save yourself in time?
+#Installation
+```bash
+npm install axios
+```
+```bash
+pip3 install Flask
+```
