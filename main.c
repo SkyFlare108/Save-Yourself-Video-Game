@@ -145,7 +145,7 @@ int main(void) {
         waitForVBlank();
         //drawRectDMA(135, 0, 240, 16,BLACK);
         displayAnimatedText("Press Enter to begin", &x, &y, &dy);
-        //drawString(100,50,"Press Enter to begin", WHITE);
+        drawString(5,5,"By: Harisri Yerramsetti", WHITE);
 
         if(KEY_JUST_PRESSED(BUTTON_START, currentButtons, previousButtons)) 
         { 
